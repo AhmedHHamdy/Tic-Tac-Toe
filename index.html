@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="TicTacToe game">
+		<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://kit.fontawesome.com/9d0d3b95e0.js" crossorigin="anonymous"></script>
+
+		<title>TicTacToe</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<section class="choose-container">
+			<section id="x" class="chooseStart">
+				<i  class="fa-regular fa-x x-section"></i>
+			</section>
+			<section id="o" class="chooseStart">
+				<i class="fa-regular fa-o o-section"></i>
+			</section>
+		</section>
+
+		<main>
+
+			<section class="section-one">
+				<section id="lineThroughOne" class="line-through-one "></section>
+				<section id="lineThroughOneHorizontal" class="line-through-one-horizontal "></section>
+				<section id="lineThroughOneDiagonal" class="line-through-one-diagonal "></section>
+				<div id="box-one" class="boxOne start one">
+					<i id="boxOne-x" class="fa-regular fa-x hidden"></i>
+					<i id="boxOne-o" class="fa-regular fa-o hidden"></i>
+				</div>
+
+				<div id="box-two" class="boxTwo start two">
+					<i id="boxTwo-x" class="fa-regular fa-x hidden"></i>
+					<i id="boxTwo-o" class="fa-regular fa-o hidden"></i>
+				</div>
+
+				<div id="box-three" class="boxThree start three">
+					<i id="boxThree-x" class="fa-regular fa-x hidden"></i>
+					<i id="boxThree-o" class="fa-regular fa-o hidden"></i>
+				</div>
+			</section>
+
+			<section class="section-two">
+				<section id="lineThroughTwo" class="line-through-two"></section>
+				<section id="lineThroughTwoHorizontal" class="line-through-two-horizontal "></section>
+				<div id="box-four" class="mid four">
+					<i id="boxFour-x" class="fa-regular fa-x hidden"></i>
+					<i id="boxFour-o" class="fa-regular fa-o hidden"></i>
+				</div>
+
+				<div id="box-five" class="mid five">
+					<i id="boxFive-x" class="fa-regular fa-x hidden"></i>
+					<i id="boxFive-o" class="fa-regular fa-o hidden"></i>
+				</div>
+
+				<div id="box-six" class="mid six">
+					<i id="boxSix-x" class="fa-regular fa-x hidden"></i>
+					<i id="boxSix-o" class="fa-regular fa-o hidden"></i>
+				</div>
+			</section>
+
+			<section class="section-three">
+				<section id="lineThroughThree" class="line-through-three "></section>
+				<section id="lineThroughThreeHorizontal" class="line-through-three-horizontal "></section>
+				<section id="lineThroughThreeDiagonal" class="line-through-three-diagonal "></section>
+				<div id="box-seven" class="last seven">
+					<i id="boxSeven-x" class="fa-regular fa-x hidden"></i>
+					<i id="boxSeven-o" class="fa-regular fa-o hidden"></i>
+				</div>
+
+				<div id="box-eight" class="last eight">
+					<i id="boxEight-x" class="fa-regular fa-x hidden"></i>
+					<i id="boxEight-o" class="fa-regular fa-o hidden"></i>
+				</div>
+
+				<div id="box-nine" class="last nine">
+					<i id="boxNine-x" class="fa-regular fa-x hidden"></i>
+					<i id="boxNine-o" class="fa-regular fa-o hidden"></i>
+				</div>
+			</section>
+
+			<section id="result" class="result-section hidden">
+				<section class="i-container">
+					<i id="winnerX" class="fa-regular fa-x "></i>
+					<i id="winnerO" class="fa-regular fa-o "></i>
+				</section>
+				<span id="span-result">WINNER!</span>
+				<div id="button-ok"><span>Play again</span></div>
+			</section>
+		</main>
+
+		<section class="restart-container">
+			<section id="restartButton" class="restart">
+				<span>Restart</span>
+			</section>
+		</section>
+
+		<footer>
+			<small>Ahmed Hamdy &#169; 2023</small>
+			<h6><a href="https://twitter.com/Ahmed_Hamdyx"><i class="fa-brands fa-twitter"></i></a>
+		</footer>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
